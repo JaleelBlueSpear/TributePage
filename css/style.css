@@ -1,0 +1,156 @@
+
+html {
+  background-color: #00c929;
+  height: 100%;
+}
+
+
+body {
+  margin-bottom: .4rem;
+  padding: 0rem 2rem 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+  justify-content: center;
+}
+
+
+#main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+
+#timeLineHeaderContainerdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  tex-align: center;
+  color: #853b52;
+  font-family: "Anton", sans-serif;
+  background-color: #ea5ef1;
+  width: 80%;
+  border-top-left-radius: .4rem;
+  border-top-right-radius: .4rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+.timelineShadow {
+  box-shadow: 1.5rem 0rem 1rem rgba(0, 0, 1, .4);
+}
+
+
+#timeLineHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  tex-align: center;
+  color: #853b52;
+  font-family: "Anton", sans-serif;
+  background-color: #ea5ef1;
+  width: 80%;
+  border-top-left-radius: .4rem;
+  border-top-right-radius: .4rem;
+  margin: 0px;
+
+  padding: 0px;
+}
+
+#ContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  overflow-y: scroll;
+  height: 24rem;
+}
+
+
+#image-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00a7f1;
+  width: 100%;
+  font-family: "Anton", sans-serif;
+}
+
+
+#image-content img {
+  display: block;
+  width: 65%;
+  max-width: 73%;
+  height: auto;
+  margin: .4rem 0rem 0rem 0rem;
+
+  border-radius: .4rem;
+}
+
+
+
+#image-content p {
+  color: hsl(28deg, 58%, 48%);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#timelineDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /*overflow-y: auto;*/
+
+  /*height: 10rem; */
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
+
+  width: 100%;
+  background-color: #eb7f23;
+  color: hsl(198deg, 50%, 60%);
+  text-align: center;
+}
+
+#timeline {
+  display: flex;
+  flex-direction: column;
+  list-style: \1F34F;
+}
+
+#timeline li:before {
+  content: "\1F34F";
+  margin-right: .3rem;
+}
+
+#timeline li {
+  margin-top: .8rem;
+  font-weight: 20;
+  text-align: center;
+  list-style: none;
+}
+
+
+a[href="#image-content"] {
+  color: inherit;
+}
+
+footer {
+  background-color: #eb7f23;
+  width: 80%;
+  border-bottom-left-radius: .4rem;
+  border-bottom-right-radius: .4rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  overflow-y: scroll;
+  color: hsl(198deg, 50%, 60%);
+}
