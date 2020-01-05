@@ -40,6 +40,10 @@ body {
   padding: 0px;
 }
 
+#linkToSteveJobs {
+  color: inherit;
+}
+
 
 
 
@@ -124,11 +128,11 @@ body {
   display: flex;
   flex-direction: column;
   list-style: \1F34F;
+  padding: 0px;
 }
 
 #timeline li:before {
   content: "\1F34F";
-  margin-right: .3rem;
 }
 
 #timeline li {
